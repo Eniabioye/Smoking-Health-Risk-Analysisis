@@ -1,7 +1,6 @@
 Smoking Health Risk Analysis (Power BI)
 
 
-
 Project Overview
 
 This project uses Power BI to analyze how smoking habits relate to health outcomes across different organs. The dashboard is designed to help users easily explore patterns between smoking behavior, patient demographics, and organ health status.
