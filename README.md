@@ -1,4 +1,5 @@
 Smoking Health Risk Analysis (Power BI)
+![Alt text](Screenshot 2026-01-30 at 15.58.29.png)
 
 
 Project Overview
