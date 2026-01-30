@@ -1,16 +1,17 @@
-Smoking Health Risk Analysis (Power BI)
+# Smoking Health Risk Analysis (Power BI)
 
-<img width="1125" alt="Screenshot 2026-01-30 at 15.58.29.png" src="https://github.com/user-attachments/assets/663f6341-6159-465e-90a0-59553b6503e0" />
+<img width="1139" height="638" alt="Screenshot 2026-01-30 at 15 58 29" src="https://github.com/user-attachments/assets/ccdb9926-ceb9-4b20-bd98-61cc19e5ff8d" />
 
 
 
-Project Overview
+
+# Project Overview
 
 This project uses Power BI to analyze how smoking habits relate to health outcomes across different organs. The dashboard is designed to help users easily explore patterns between smoking behavior, patient demographics, and organ health status.
 
 The goal of the project is to turn complex health data into clear visual insights that can support learning, awareness, and data-driven decision-making.
 
-Objective
+## Objective
 
 To understand the relationship between smoking and organ damage
 
@@ -20,7 +21,7 @@ To identify patterns across age, BMI, gender, and smoking status
 
 To demonstrate effective data visualization and storytelling using Power BI
 
-Dataset Summary
+### Dataset Summary
 
 The dataset includes patient-level information such as:
 
@@ -36,11 +37,11 @@ Health status of major organs (Heart, Lungs, Liver, Kidneys, Full Body)
 
 Cholesterol and hypertension risk indicators
 
-Dashboard Features
+### Dashboard Features
 
 The Power BI dashboard was made interactive and user-friendly, to allow users to explore the data through filters and visuals.
 
-Key Components
+### Key Components
 
 Patient Overview:
 Displays total patients, average age, average BMI, and smoking status distribution.
@@ -58,9 +59,9 @@ Users can switch between Healthy and Damaged views to compare patterns instantly
 
 
 
-Detailed Analysis Across Dashboard through filters
+## Detailed Analysis Across Dashboard through filters
 
-Healthy Heart 
+##### Healthy Heart 
 
 Patient Population: 336 patients
 
@@ -77,7 +78,7 @@ Key Insights: The visualization shows a healthy, anatomically detailed heart wit
 
 
 
-Damaged Heart 
+##### Damaged Heart 
 
 Patient Population: 193 patients (a 42.6% reduction from healthy group)
 
@@ -94,7 +95,7 @@ Key Insights: The damaged heart appears darkened, suggesting tissue damage or ne
 
 
 
-Healthy Full-Body System 
+##### Healthy Full-Body System 
 
 Patient Population: 319 patients
 
@@ -111,7 +112,7 @@ Key Insights: This comprehensive anatomical view shows all major organ systems (
 
 
 
-Damaged Full-Body System
+##### Damaged Full-Body System
 
 Patient Population: 155 patients
 
@@ -128,7 +129,7 @@ Key Insights: The damaged visualization shows deteriorated organs with darkened 
 
 
 
- Healthy Kidney  
+##### Healthy Kidney  
 
 Patient Population: 296 patients
 
@@ -145,7 +146,7 @@ Key Insights: The healthy kidney visualization shows normal renal anatomy with c
 
 
 
-Damaged Kidney 
+##### Damaged Kidney 
 
 Patient Population: 174 patients
 
@@ -162,7 +163,7 @@ Key Insights: The darkened kidney visualization suggests renal damage or disease
 
 
 
-Healthy Liver
+##### Healthy Liver
 
 Patient Population: 342 patients
 
@@ -179,7 +180,7 @@ Key Insights: The healthy liver is shown in rich red-brown coloration indicating
 
 
 
-Damaged Liver
+##### Damaged Liver
 
 Patient Population: 207 patients
 
@@ -196,7 +197,7 @@ Key Insights: The damaged liver appears darkened, potentially indicating cirrhos
 
 
 
-Healthy Lung 
+##### Healthy Lung 
 
 Patient Population: 310 patients
 
@@ -213,7 +214,7 @@ Key Insights: The healthy lungs are displayed in bright pink with visible bronch
 
 
 
-Damaged Lung 
+##### Damaged Lung 
 
 Patient Population: 168 patients
 
@@ -230,7 +231,7 @@ Key Insights: The damaged lungs appear severely darkened, suggesting emphysema, 
 
 
 
-Data Inconsistencies
+## Data Inconsistencies
 
 Counterintuitive Age Patterns: Multiple damaged organ groups are younger than their healthy counterparts, which contradicts typical disease progression models. This requires investigation into selection bias or misclassification.
 Never-Smokers in Damaged Groups: Significant percentages of never-smokers appear in damaged categories (21-29%), raising questions about exposure to secondhand smoke, environmental toxins, or whether other comorbidities are confounding the analysis.
@@ -241,7 +242,7 @@ Smoking Measurement Limitations: The dashboard does not specify how smoking stat
 
 
 
-Overall Key Insights
+## Overall Key Insights
 
 Organ damage is not limited to older patients: Some damaged organs appear in younger patients, suggesting early exposure or additional risk factors.
 
@@ -263,7 +264,7 @@ This suggests that environmental exposure, genetics, or other health conditions 
 
 
 
-Recommendations
+## Recommendations
 
 Add Pack-Years Calculation: Include pack-years (packs per day × years smoked) as a more precise smoking exposure metric.
 
@@ -276,7 +277,7 @@ Intervention Tracking: Include metrics for smoking cessation program enrollment 
 Alert System: Implement automated alerts for high-risk patients who meet multiple criteria for organ damage.
 
 
-Conclusion
+## Conclusion
 
 This project demonstrates how Power BI can be used to simplify complex health data and uncover meaningful patterns related to smoking and organ health. While the dashboard highlights important trends, it also shows the importance of understanding data limitations and interpreting results responsibly.
 
